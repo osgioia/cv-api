@@ -1,0 +1,32 @@
+{
+  "name": "cv-api",
+  "version": "1.0.0",
+  "description": "Un API de mi Curriculum",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osgioia/cv-api.git"
+  },
+  "keywords": [
+    "cv",
+    "curriculum",
+    "vitae",
+    "contacto",
+    "api"
+  ],
+  "author": "osgioia",
+  "bugs": {
+    "url": "https://github.com/osgioia/cv-api/issues"
+  },
+  "homepage": "https://github.com/osgioia/cv-api/",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.14.1"
+  },
+  "license": "ISC"
+}
