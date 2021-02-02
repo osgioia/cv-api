@@ -1,27 +1,30 @@
-# Los Simpsons Frases API
+# Curriculum Vitae API
 
-Una simple API de Los Simpsons!
+Inspirado en el repo [https://github.com/nahueltori/cv-nahuel-api](https://github.com/nahueltori/cv-nahuel-api) de [@nahueltori](https://github.com/nahueltori/) pero hecho en NodeJS y Express
 
-## Production host
+## Instalacion:
+- Renombrar el archivo .env.example y completar los datos con su Bot de Telegram y su destinatario.
 
-[https://los-simpsons-quotes.herokuapp.com](https://los-simpsons-quotes.herokuapp.com)
+## LIVE!
+
+[https://curriculumvitae-api.herokuapp.com/](https://curriculumvitae-api.herokuapp.com/)
 
 ## API
 
-### `GET /v1/quotes`
+### `GET /curriculum`
 
-Get a random quote in this format:
+Devuelve mi CV en formato JSON:
 
-> [https://los-simpsons-quotes.herokuapp.com/v1/quotes](https://los-simpsons-quotes.herokuapp.com/v1/quotes)
+> [https://curriculumvitae-api.herokuapp.com/curriculum](https://curriculumvitae-api.herokuapp.com/curriculum)
 
 
-### `GET /v1/quotes/{number}`
+### `POST /mensajes`
 
-Returns an array with `{number}` quotes e.g. `GET /v1/quotes/5`.
+En formato JSON manda una variable mensaje. Que se envia a la cuenta especificada de Telegram.
 
-> [https://los-simpsons-quotes.herokuapp.com/v1/quotes/5](https://los-simpsons-quotes.herokuapp.com/v1/quotes/5)
+> [https://curriculumvitae-api.herokuapp.com/mensajes](https://curriculumvitae-api.herokuapp.com/mensajes)
 
 
 ## Creditos
 
-Inspirado en [Breking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes).
+Inspirado en [https://github.com/nahueltori/cv-nahuel-api](https://github.com/nahueltori/cv-nahuel-api).
